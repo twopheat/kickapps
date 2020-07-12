@@ -12,6 +12,11 @@
   
 }
 
+body {
+  background-image: url('./img/bkg1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .mr-auto1 {
   margin-left: 60%!important;
 }
