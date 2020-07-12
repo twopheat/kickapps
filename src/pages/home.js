@@ -13,7 +13,7 @@ class Home extends Component {
       <div className="container">
         <div className="row">
           <div className="col-sm">
-          <img className="homepic" src={bkg1} alt="KICKapps"></img>
+          <img className="homepic mt-3" src={bkg1} alt="KICKapps"></img>
           </div>
         </div>
         
