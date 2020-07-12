@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/style.css";
+import "../App.css";
 import Home from '../routes/home';
 import About from '../routes/about';
 import Contact from '../routes/contact';
@@ -9,7 +9,7 @@ import Portfolio from '../routes/portfolio';
 import {
   Switch,
   Route
-} from "react-router-dom";
+} from "react-router";
 
 
 

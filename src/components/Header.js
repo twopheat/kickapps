@@ -1,14 +1,12 @@
 import React from 'react';
-import "../styles/Header.css";
-import Nav from './NavBar.js';
-import logo from "../../src/logo.svg";
+// import "../styles/Header.css";
+import Nav from './Navbar.js';
 
 function Header () {
     return (
-      <div className="header1 sticky neu">
-       <img src={logo} className="App-logo" alt="logo" />
+      <div>
         <Nav />
-      </div>
+       </div>
     )
   }
 

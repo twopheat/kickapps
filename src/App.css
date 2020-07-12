@@ -4,7 +4,16 @@
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  /* pointer-events: none; */
+}
+
+.Applogo {
+  height: 64px;
+  
+}
+
+.mr-auto1 {
+  margin-left: 60%!important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
