@@ -3,7 +3,7 @@ import '../App.css';
 
 
 
-class Home extends Component {
+class Contact extends Component {
   
   render() {
 
@@ -11,7 +11,7 @@ class Home extends Component {
 
       <div className="mt-5">
         
-        <h2 className="ptitle text-dark">KICKapps</h2>
+        <h2 className="ptitle text-dark">Contact</h2>
 
 
       
@@ -25,5 +25,5 @@ class Home extends Component {
 
 
 
-export default Home;
+export default Contact;
 

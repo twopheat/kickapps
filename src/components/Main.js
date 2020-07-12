@@ -1,37 +1,32 @@
 import React from "react";
 import "../App.css";
-import Home from '../routes/home';
-import About from '../routes/about';
-import Contact from '../routes/contact';
-import Portfolio from '../routes/portfolio';
+import Home from '../pages/home';
+import About from '../pages/about';
+import Contact from '../pages/contact';
+import Portfolio from '../pages/portfolio';
 
 
 import {
   Switch,
   Route
-} from "react-router";
+} from "react-router-dom";
 
 
 
-function Main () {
+function Core () {
     return (
      
       <Switch>
-      <Route exact path="/">
-        <Home />
-      </Route>
-      <Route path="/about">
-        <About />
-      </Route>
-      <Route path="/contact">
-        <Contact />
-      </Route>
-      <Route path="/portfolio">
-        <Portfolio />
-      </Route>
-    </Switch>
+      <Route path="/" exact component={Home} />
+
+      <Route path="/about" component={About} />
+
+      <Route path="/portfolio" component={Portfolio} />
+
+      <Route path="/contact" component={Contact} />
+      </Switch>
   
     );
   };
 
-export default Main;
+export default Core;

@@ -12,11 +12,17 @@
   
 }
 
+.homepic {
+  width:100%;
+  height:auto;
+}
+
 body {
-  background-image: url('./img/bkg1.jpg');
+  /* background-image: url(''); */
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .mr-auto1 {
   margin-left: 60%!important;
 }

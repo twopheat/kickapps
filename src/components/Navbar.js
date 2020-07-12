@@ -15,16 +15,16 @@ function Nav() {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto1">
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+        <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">About</a>
+        <a className="nav-link" href="/about">About</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Portfolio</a>
+        <a className="nav-link" href="/portfolio">Portfolio</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Contact</a>
+        <a className="nav-link" href="/contact">Contact</a>
       </li>
     </ul>
   </div>
@@ -33,15 +33,3 @@ function Nav() {
 );
 }
 export default Nav;
-
-      /* <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          More
-        </a>
-        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#">Stacks</a>
-          <a className="dropdown-item" href="#">Backgrounds</a>
-          <div className="dropdown-divider"></div>
-          <a className="dropdown-item" href="#">Portfolio</a>
-        </div>
-      </li> */
