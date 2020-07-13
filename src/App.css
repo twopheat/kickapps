@@ -7,6 +7,10 @@
   /* pointer-events: none; */
 }
 
+.abouttext {
+  height:20%;
+}
+
 .bg-kick {
   background-color:#fbfbfb!important;
 }
@@ -157,6 +161,12 @@ body {
   margin-top:-30px;
 }
 
+.divider2 {
+  height:10em;
+  width:.5em;
+  margin-top:-30px;
+}
+
 .phone {
   color:#0071bc;
 }
@@ -227,6 +237,16 @@ body {
     display:none;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .divider2 {
+    display:none;
+  }
+  .leftcol {
+    padding-left:2em;
+  }
+}
+
 
 @media screen and (min-width: 701px) {
   body {

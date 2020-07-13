@@ -37,7 +37,7 @@ class Home extends Component {
             <img className="homepic" src={logo} alt="KICKapps"></img>
           </div>
         </div>
-        <div className="row justify-content-center mt-5">
+        <div className="row justify-content-center mt-5 mb-5">
           <div className="col-5-sm toolsbox1">
             <div id="nodekey" className="card round nodecard">
               <img className="nodepic" src={nodepic} alt="Node.js"></img>

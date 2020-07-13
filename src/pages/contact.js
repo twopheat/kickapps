@@ -11,9 +11,13 @@ class Contact extends Component {
 
     return (
 
-      <div className="mt-5 container">
+      <div className="mt-5 mb-5 container">
         
         <h5 className="ptitle text-dark">Contact Us</h5>
+        <br></br>
+        <h5 className="email">info@kickapps.com</h5>
+        <br></br>
+        <h4 className="phone">951.956.6966</h4>
         <br></br>
         <div className="row">
           <div className="col-sm">
@@ -32,9 +36,7 @@ class Contact extends Component {
             <br></br>
           </div>
         </div>
-        <h5 className="email">info@kickapps.com</h5>
-        <br></br>
-        <h4 className="phone">951.956.6966</h4>
+
 
 
       
