@@ -7,6 +7,9 @@
   /* pointer-events: none; */
 }
 
+.bg-kick {
+  background-color:#fbfbfb!important;
+}
 .Applogo {
   height: 64px;
   
@@ -30,7 +33,6 @@
 }
 
 .sloganbox {
-  margin-top: 5em;
   margin-left:auto;
   margin-right:auto;
 }
@@ -48,10 +50,18 @@
   padding:1em;
 }
 
+.nodecard {
+  border: 5px solid #68a063;
+}
+
 .expresspic {
   width:240px;
   height:90px;
   padding:1em;
+}
+
+.expresscard {
+  border: 2px solid #f0d91c;
 }
 
 .reactpic {
@@ -60,16 +70,30 @@
   padding:1em;
 }
 
+.reactcard {
+  border: 6px solid #61dafb;
+}
+
 .mysqlpic {
-  width:140px;
+  width:180px;
+  height:120px;
+  padding:1em;
+}
+
+.mysqlcard {
+  border: 3px solid #e59209;
+  z-index:-1;
+}
+
+.mongopic {
+  width:100px;
   height:100px;
   padding:1em;
 }
 
-.mongopic {
-  width:180px;
-  height:140px;
-  padding:1em;
+.mongocard {
+  border:2px solid #c1bebb;
+  z-index:-1;
 }
 
 .round {
@@ -85,7 +109,7 @@ body {
 .divider {
   height:20em;
   width:.5em;
-  margin-top:-20px;
+  margin-top:-30px;
 }
 
 .navbar {
