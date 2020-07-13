@@ -9,10 +9,10 @@ class Contact extends Component {
 
     return (
 
-      <div className="mt-5">
+      <div className="mt-5 container">
         
         <h5 className="ptitle text-dark">Contact Us</h5>
-        
+        <div className="row"></div>
         <h4 className="contactfield">riverside,ca   |   nashville,tn   |   denver,co</h4>
 
         <h6 className="contactfield">info@kickapps.com</h6>
