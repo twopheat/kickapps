@@ -37,9 +37,9 @@ class Home extends Component {
             <img className="homepic" src={logo} alt="KICKapps"></img>
           </div>
         </div>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mt-5">
           <div className="col-5-sm toolsbox1">
-            <div className="card round shadow-sm">
+            <div className="card round shadow-sm ">
               <img className="nodepic" src={nodepic} alt="Node.js"></img>
             </div>
           </div>
@@ -49,7 +49,7 @@ class Home extends Component {
           <div className="col-7-sm toolsbox2">
             <div className="row justify-content-center">
               <div className="col-5-sm align-middle">
-                <div className="card round shadow-sm m-2">
+                <div className="card round shadow-sm m-2 mt-5">
                   <img className="expresspic" src={expresspic} alt="Express.js"></img>
                 </div>
               </div>
