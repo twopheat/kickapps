@@ -11,7 +11,7 @@ class Portfolio extends Component {
 
       <div className="mt-5">
         
-        <h2 className="ptitle text-dark">Portfolio</h2>
+        <h5 className="ptitle text-dark">Our Portfolio is being put together real-time!</h5>
 
 
       

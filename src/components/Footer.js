@@ -1,11 +1,11 @@
 import React from 'react';
-// import "../styles/style.css";
+import "../App.css";
 
 function Footer () {
     return (
-      <div className="pt-5">
-         <div className="footer">
-        
+      <div className="row">
+         <div className="col-12 mb-2 footer justify-content-center text-center">
+            <b>Copyright © 2020 | KICKapps llc</b>
         </div>
       </div>
     )
