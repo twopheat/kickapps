@@ -22,8 +22,9 @@ class About extends Component {
       <div className="mt-5">
         <div className="row justify-content-center mt-5">
           <div className="col-5-sm aboutbox">
+            <h5>We are a team of coders spanning the entire US.</h5><br></br> <h5>We have superior availabilty and a simple, swift flow.</h5><br></br>
             <div className="card round aboutcard shadow-sm ">
-              <h5>We are a team of coders spanning the entire US.</h5><br></br> <h5>We have superior availabilty and a simple, swift flow.</h5>
+
               <img className="aboutpic" src={aboutpic} alt="KICKapps Mission"></img>
             </div>
           </div>

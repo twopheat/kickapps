@@ -12,12 +12,20 @@ class Contact extends Component {
       <div className="mt-5 container">
         
         <h5 className="ptitle text-dark">Contact Us</h5>
-        <div className="row"></div>
-        <h4 className="contactfield">riverside,ca   |   nashville,tn   |   denver,co</h4>
-
-        <h6 className="contactfield">info@kickapps.com</h6>
+        <div className="row">
+          <div className="col-sm">
+            <h4 className="riverside">riverside,ca</h4>
+            </div>
+            <div className="col-sm">
+            <h4 className="denver">denver,co</h4>
+            </div>
+            <div className="col-sm">
+            <h4 className="nashville">nashville,tn</h4>
+          </div>
+        </div>
+        <h5 className="email">info@kickapps.com</h5>
         
-        <h4 className="contactfield">951.956.6966</h4>
+        <h4 className="phone">951.956.6966</h4>
 
 
       

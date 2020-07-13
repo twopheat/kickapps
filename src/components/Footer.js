@@ -3,10 +3,12 @@ import "../App.css";
 
 function Footer () {
     return (
-      <div className="row">
-         <div className="col-12 mb-2 footer justify-content-center text-center">
+      <div role="main" className="container">
+        <footer className="footer">
+         <span className="text-muted">
             <b>Copyright © 2020 | KICKapps llc</b>
-        </div>
+        </span>
+        </footer>
       </div>
     )
   }
