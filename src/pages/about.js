@@ -13,8 +13,6 @@ class About extends Component {
     endDate: ""
   }
 
-
-
   render() {
 
     return (

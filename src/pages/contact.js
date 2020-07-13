@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-
+import calipic from "../../src/img/cali.png";
+import colopic from "../../src/img/colo.png";
+import tennpic from "../../src/img/tenn.png";
 
 class Contact extends Component {
   
@@ -15,14 +17,17 @@ class Contact extends Component {
         <br></br>
         <div className="row">
           <div className="col-sm">
+            <img className="calipic" src={calipic} alt="cali"></img>
             <h4 className="riverside">riverside,ca</h4>
             </div>
             <br></br>
             <div className="col-sm">
+            <img className="colopic" src={colopic} alt="colo"></img>
             <h4 className="denver">denver,co</h4>
             </div>
             <br></br>
             <div className="col-sm">
+            <img className="tennpic" src={tennpic} alt="tenn"></img>  
             <h4 className="nashville">nashville,tn</h4>
             <br></br>
           </div>
