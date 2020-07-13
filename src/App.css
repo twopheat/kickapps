@@ -17,10 +17,78 @@
   height:auto;
 }
 
+.firstletter {
+  font-size:30pt;
+  font-weight:bold;
+  color:#0071bc;
+}
+
+.slogan {
+  font-size:30pt;
+  font-weight:bold;
+  color:#707070;
+}
+
+.sloganbox {
+  margin-top: 5em;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.logobox {
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.nodepic {
+  width:320px;
+  height:200px;
+  padding:1em;
+}
+
+.expresspic {
+  width:240px;
+  height:90px;
+  padding:1em;
+}
+
+.reactpic {
+  width:280px;
+  height:140px;
+  padding:1em;
+}
+
+.mysqlpic {
+  width:140px;
+  height:100px;
+  padding:1em;
+}
+
+.mongopic {
+  width:180px;
+  height:140px;
+  padding:1em;
+}
+
+.round {
+  border-radius:10px;
+}
+
 body {
   /* background-image: url(''); */
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.divider {
+  height:20em;
+  width:.5em;
+  margin-top:-20px;
+}
+
+.navbar {
+  z-index:1;
 }
 
 .mr-auto1 {
