@@ -39,7 +39,7 @@ class Home extends Component {
         </div>
         <div className="row justify-content-center mt-5">
           <div className="col-5-sm toolsbox1">
-            <div className="card round nodecard shadow-sm ">
+            <div id="nodekey" className="card round nodecard">
               <img className="nodepic" src={nodepic} alt="Node.js"></img>
             </div>
           </div>
@@ -49,13 +49,13 @@ class Home extends Component {
           <div className="col-7-sm toolsbox2">
             <div className="row justify-content-center">
               <div className="col-5-sm align-middle">
-                <div className="card round expresscard shadow m-2 mt-5">
+                <div id="expresskey" className="card round expresscard m-2 mt-5">
                   <img className="expresspic" src={expresspic} alt="Express.js"></img>
                 </div>
               </div>
 
               <div className="col-5-sm">
-                <div className="card round reactcard shadow-lg mt-3">
+                <div id="reactkey" className="card round reactcard  mt-3">
                   <img className="reactpic" src={reactpic} alt="React.js"></img>
                 </div>
               </div>
@@ -63,13 +63,13 @@ class Home extends Component {
 
             <div className="row justify-content-center">
               <div className="col-5-sm">
-                <div className="card round mysqlcard shadow m-2">
+                <div id="mysqlkey" className="card round mysqlcard m-2">
                   <img className="mysqlpic" src={mysqlpic} alt="mySQL"></img>
                 </div>
               </div>
 
               <div className="col-5-sm">
-                <div className="card round mongocard shadow-sm mt-3">
+                <div id="mongokey" className="card round mongocard mt-3">
                   <img className="mongopic" src={mongopic} alt="MongoDB"></img>
                 </div>
               </div>
