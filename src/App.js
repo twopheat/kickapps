@@ -5,13 +5,17 @@ import Wrapper from './components/Wrapper';
 import Header from './components/Header';
 import Core from './components/Main';
 import Footer from './components/Footer';
+import HttpsRedirect from 'react-https-redirect';
 
 import { BrowserRouter as Router } from "react-router-dom";
+
+
 
 function App() {
   return (
     <div className="App">
            <div className="App-head">
+           <HttpsRedirect>
            <Router>
              <Wrapper>
                <Header />
@@ -21,7 +25,9 @@ function App() {
                <Footer />
              </Wrapper>
            </Router>
+           </HttpsRedirect>
            </div>
+           
          </div>
   );
 }
