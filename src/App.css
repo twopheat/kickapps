@@ -352,14 +352,14 @@ from { top: -600px;
 
 #textkey {
   animation-name: textkeyin;
-  animation-duration: 3s;
-  animation-delay:3s;
+  animation-duration: 2s;
+  animation-delay:2s;
   animation-fill-mode: backwards;
 }
 
 @keyframes textkeyin {
 from { opacity: 0%;
   }
-  to { opacity: 100%;
+  to { opacity: 80%;
   }
 }
