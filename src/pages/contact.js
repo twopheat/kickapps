@@ -20,7 +20,10 @@ class Contact extends Component {
         </h5>
 
         <br></br>
-        <h4 className="phone">951.956.6966</h4>
+        <h4 className="phone">
+          <a href="tel:951-956-6966">951.956.6966</a>
+        </h4>
+        
         <br></br>
         <div className="row">
           <div className="col-sm">
