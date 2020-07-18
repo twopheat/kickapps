@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-// import aboutpic from "../../src/img/coding.jpg";
+import aboutpic from "../../src/img/coding.jpg";
 // import divider from "../../src/img/dividervert.png";
 
 class About extends Component {
