@@ -33,7 +33,7 @@ class Home extends Component {
           <div className="col-1 dividerbox">
             <img className="homepic divider" src={divider} alt="KICKapps"></img>
           </div>
-          <div className="col-7 logobox mt-5">
+          <div className="col-md logobox mt-5">
             <img className="homepic" src={logo} alt="KICKapps"></img>
           </div>
         </div>
