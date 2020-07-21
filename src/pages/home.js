@@ -9,6 +9,8 @@ import reactpic from "../../src/img/react.png";
 import mysqlpic from "../../src/img/mysql.png";
 import mongopic from "../../src/img/mongo.png";
 
+// import videoSource from "https://youtu.be/embed/LWjq0ibMpYI";
+// import classes from 'BackgroundVideo.module.css';
 
 class Home extends Component {
 
@@ -17,6 +19,11 @@ class Home extends Component {
     return (
 
       <div className="container">
+        {/* <video autoplay="autoplay" loop="loop" muted className="bkgvid" >
+          <source src={videoSource} type="video/mp4">
+            Your browser does not support the video tag.
+                </source>
+        </video> */}
         <div className="row">
 
           <div className="col-4-sm sloganbox mt-5">
