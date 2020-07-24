@@ -13,7 +13,7 @@ class Contact extends Component {
 
       <div className="mt-5 mb-5 container">
 
-        <h5 className="ptitle text-dark">Contact Us</h5>
+        <h5 className="ptitle text-light">Contact Us</h5>
         <br></br>
         <h5 className="email">
           <a href="mailto:info@kickapps.com">info@kickapps.com</a>
