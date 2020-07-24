@@ -40,7 +40,7 @@ class Home extends Component {
         <div className="row justify-content-center mt-5 mb-5">
           <div className="col-5-sm toolsbox1">
             <div id="nodekey" className="card round nodecard">
-              <img className="nodepic" src={nodepic} alt="Node.js"></img>
+              <img id="nodepickey" className="nodepic" src={nodepic} alt="Node.js"></img>
             </div>
           </div>
           {/* <div className="col-1-sm separater ml-2 mr-2">
@@ -50,13 +50,13 @@ class Home extends Component {
             <div className="row justify-content-center">
               <div className="col-5-sm align-middle">
                 <div id="expresskey" className="card round expresscard m-2 mt-5">
-                  <img className="expresspic" src={expresspic} alt="Express.js"></img>
+                  <img id="expresspickey" className="expresspic" src={expresspic} alt="Express.js"></img>
                 </div>
               </div>
 
               <div className="col-5-sm">
                 <div id="reactkey" className="card round reactcard  mt-3">
-                  <img className="reactpic" src={reactpic} alt="React.js"></img>
+                  <img id="reactpickey" className="reactpic" src={reactpic} alt="React.js"></img>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ class Home extends Component {
             <div className="row justify-content-center">
               <div className="col-5-sm">
                 <div id="mysqlkey" className="card round mysqlcard m-2">
-                  <img className="mysqlpic" src={mysqlpic} alt="mySQL"></img>
+                  <img id="mysqlpickey" className="mysqlpic" src={mysqlpic} alt="mySQL"></img>
                 </div>
               </div>
 

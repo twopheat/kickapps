@@ -286,10 +286,25 @@ body {
   }
 }
 
+#nodepickey {
+  animation-name: nodepickeyin;
+  animation-duration: 2.4s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes nodepickeyin {
+  from { 
+         visibility:hidden;  
+  }
+  to { 
+       visibility:visible;  
+  }
+}
 
 #expresskey {
   animation-name: expresskeyin;
-  animation-duration: 2.5s;
+  animation-duration: 2s;
   animation-delay:1s;
   animation-fill-mode: backwards;
 }
@@ -304,6 +319,22 @@ body {
   to { box-shadow: 0 .44rem .7rem rgba(0, 0, 0);
        border: 2px solid #f0d91c;
        background-color: rgb(255, 255, 255);
+       visibility:visible;  
+  }
+}
+
+#expresspickey {
+  animation-name: expresspickeyin;
+  animation-duration: 2.7s;
+  animation-delay: 2.2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes expresspickeyin {
+  from { 
+         visibility:hidden;  
+  }
+  to { 
        visibility:visible;  
   }
 }
@@ -329,10 +360,25 @@ body {
   }
 }
 
+#reactpickey {
+  animation-name: reactpickeyin;
+  animation-duration: 3s;
+  animation-delay: 2.4s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes reactpickeyin {
+  from { 
+         visibility:hidden;  
+  }
+  to { 
+       visibility:visible;  
+  }
+}
 
 #mysqlkey {
   animation-name: mysqlkeyin;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-delay:1s;
   animation-fill-mode: backwards;
   
@@ -351,9 +397,25 @@ body {
   }
 }
 
+#mysqlpickey {
+  animation-name: mysqlpickeyin;
+  animation-duration: 3s;
+  animation-delay: 2.6s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes mysqlpickeyin {
+  from { 
+         visibility:hidden;  
+  }
+  to { 
+       visibility:visible;  
+  }
+}
+
 #mongokey {
   animation-name: mongokeyin;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-delay: 1s;
   animation-fill-mode: backwards;
 }
@@ -374,7 +436,7 @@ body {
 #mongopickey {
   animation-name: mongopickeyin;
   animation-duration: 3s;
-  animation-delay: 2.5s;
+  animation-delay: 2.8s;
   animation-fill-mode: backwards;
 }
 
