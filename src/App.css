@@ -467,7 +467,7 @@ from { top: -600px;
 
 #textkey {
   animation-name: textkeyin;
-  animation-duration: 1.2s;
+  animation-duration: .5s;
   animation-delay:1s;
   animation-fill-mode: backwards;
 }
