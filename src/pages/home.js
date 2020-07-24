@@ -43,9 +43,9 @@ class Home extends Component {
               <img className="nodepic" src={nodepic} alt="Node.js"></img>
             </div>
           </div>
-          <div className="col-1-sm separater ml-2 mr-2">
+          {/* <div className="col-1-sm separater ml-2 mr-2">
 
-          </div>
+          </div> */}
           <div className="col-7-sm toolsbox2">
             <div className="row justify-content-center">
               <div className="col-5-sm align-middle">
