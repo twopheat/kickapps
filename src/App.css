@@ -268,44 +268,64 @@ body {
 
 #nodekey {
   animation-name: nodekeyin;
-  animation-duration: 3s;
+  animation-duration: 2s;
+  animation-delay:1s;
+  animation-fill-mode: backwards;
 }
 
 @keyframes nodekeyin {
   from { box-shadow: none;
-         border: none #68a06367;      
+         border: none #68a06367;
+         background-color: rgb(43, 43, 43);
+         visibility:hidden;     
   }
   to { box-shadow: 0 .14rem .3rem rgba(0, 0, 0);
        border: 3px solid #68a06367;
+       background-color: rgb(255, 255, 255);
+       visibility:visible;
   }
 }
 
 
 #expresskey {
   animation-name: expresskeyin;
-  animation-duration: 3s;
+  animation-duration: 2.5s;
+  animation-delay:1s;
+  animation-fill-mode: backwards;
 }
 
 @keyframes expresskeyin {
   from { box-shadow: none;
-         border: none #f0d91c;      
+         border: none #f0d91c;
+         background-color: rgb(43, 43, 43);
+         visibility:hidden;  
+         
   }
   to { box-shadow: 0 .44rem .7rem rgba(0, 0, 0);
        border: 2px solid #f0d91c;
+       background-color: rgb(255, 255, 255);
+       visibility:visible;  
   }
 }
 
 #reactkey {
   animation-name: reactkeyin;
-  animation-duration: 3s;
+  animation-duration: 2s;
+  animation-delay:1s;
+  animation-fill-mode: backwards;
 }
 
 @keyframes reactkeyin {
   from { box-shadow: none;
-         border: none #61dafb67;;
+         border: none #61dafb67;
+         background-color: rgb(43, 43, 43);
+         visibility:hidden;
   }
   to { box-shadow: 0 1.125rem 1.25rem rgba(0, 0, 0);
        border: 5px solid #61dafb67;
+       background-color: rgb(255, 255, 255);
+       visibility:visible;
+
   }
 }
 
@@ -313,34 +333,63 @@ body {
 #mysqlkey {
   animation-name: mysqlkeyin;
   animation-duration: 3s;
+  animation-delay:1s;
+  animation-fill-mode: backwards;
+  
 }
 
 @keyframes mysqlkeyin {
   from { box-shadow: none;
-         border: none #e59209;      
+         border: none #e59209;
+         background-color: rgb(43, 43, 43);
+         visibility:hidden;      
   }
   to { box-shadow: 0 .44rem .7rem rgba(0, 0, 0);
-       border: 3px solid #e59209;
+         border: 3px solid #e59209;
+         background-color: rgb(255, 255, 255);
+         visibility: visible;
   }
 }
 
 #mongokey {
   animation-name: mongokeyin;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
 }
 
 @keyframes mongokeyin {
   from { box-shadow: none;
-         border:none #c1bebb; 
+         border: none #c1bebb;
+         background-color: rgb(43, 43, 43);
+         visibility:hidden;  
   }
   to { box-shadow: 0 .175rem .35rem rgba(0, 0, 0);
-       border:2px solid #c1bebb;
+       border: 2px solid #c1bebb;
+       background-color: rgb(255, 255, 255);
+       visibility:visible;  
+  }
+}
+
+#mongopickey {
+  animation-name: mongopickeyin;
+  animation-duration: 3s;
+  animation-delay: 2.5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes mongopickeyin {
+  from { 
+         visibility:hidden;  
+  }
+  to { 
+       visibility:visible;  
   }
 }
 
 #aboutkey {
   animation-name: aboutkeyin;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 @keyframes aboutkeyin {
@@ -356,8 +405,8 @@ from { top: -600px;
 
 #textkey {
   animation-name: textkeyin;
-  animation-duration: 2s;
-  animation-delay:2s;
+  animation-duration: 1.2s;
+  animation-delay:1s;
   animation-fill-mode: backwards;
 }
 

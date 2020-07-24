@@ -70,7 +70,7 @@ class Home extends Component {
 
               <div className="col-5-sm">
                 <div id="mongokey" className="card round mongocard mt-3">
-                  <img className="mongopic" src={mongopic} alt="MongoDB"></img>
+                  <img id="mongopickey" className="mongopic" src={mongopic} alt="MongoDB"></img>
                 </div>
               </div>
             </div>
