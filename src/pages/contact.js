@@ -11,7 +11,7 @@ class Contact extends Component {
 
     return (
 
-      <div className="mt-5 mb-5 container">
+      <div className="mt-5 mb-5 container appcontent">
 
         <h5 className="ptitle text-light">Contact Us</h5>
         <br></br>

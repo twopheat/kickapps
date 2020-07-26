@@ -17,7 +17,7 @@ class About extends Component {
 
     return (
 
-      <div className="mt-5 mb-5 container">
+      <div className="mt-5 mb-5 container appcontent">
         <div id="textkey" className="row justify-content-center">
          
           <div className="col-5-sm m-3 text-center ztop mb-4">

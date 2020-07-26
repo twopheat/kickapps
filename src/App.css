@@ -11,8 +11,17 @@
   height:20%;
 }
 
+.appcontent {
+  height:900px;
+}
+
 body {
-  background-color: rgb(43, 43, 43);
+  /* background-color: rgba(43, 43, 43, 0); */
+  background: rgb(19,19,19); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 9%, rgba(43,43,43,1) 24%, rgba(17,17,17,1) 35%, rgba(0,0,0,1) 42%, rgba(44,44,44,1) 46%, rgba(44,44,44,1) 46%, rgba(71,71,71,1) 61%, rgba(102,102,102,1) 75%, rgba(89,89,89,1) 88%, rgba(76,76,76,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(19,19,19,1) 0%,rgba(28,28,28,1) 9%,rgba(43,43,43,1) 24%,rgba(17,17,17,1) 35%,rgba(0,0,0,1) 42%,rgba(44,44,44,1) 46%,rgba(44,44,44,1) 46%,rgba(71,71,71,1) 61%,rgba(102,102,102,1) 75%,rgba(89,89,89,1) 88%,rgba(76,76,76,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(19,19,19,1) 0%,rgba(28,28,28,1) 9%,rgba(43,43,43,1) 24%,rgba(17,17,17,1) 35%,rgba(0,0,0,1) 42%,rgba(44,44,44,1) 46%,rgba(44,44,44,1) 46%,rgba(71,71,71,1) 61%,rgba(102,102,102,1) 75%,rgba(89,89,89,1) 88%,rgba(76,76,76,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#4c4c4c',GradientType=0 );
 }
 .bg-kick {
   background-color:#fbfbfb!important;
@@ -97,8 +106,8 @@ body {
 }
 
 .mongopic {
-  width:100px;
-  height:100px;
+  width:160px;
+  height:66px;
   padding:1em;
 }
 
@@ -269,14 +278,14 @@ body {
 #nodekey {
   animation-name: nodekeyin;
   animation-duration: 2s;
-  animation-delay:1s;
+  animation-delay:.5s;
   animation-fill-mode: backwards;
 }
 
 @keyframes nodekeyin {
   from { box-shadow: none;
          border: none #68a06367;
-         background-color: rgb(43, 43, 43);
+         background-color: rgba(43, 43, 43, 0);
          visibility:hidden;     
   }
   to { box-shadow: 0 .14rem .3rem rgba(0, 0, 0);
@@ -289,7 +298,7 @@ body {
 #nodepickey {
   animation-name: nodepickeyin;
   animation-duration: 2.4s;
-  animation-delay: 2s;
+  animation-delay: .75s;
   animation-fill-mode: backwards;
 }
 
@@ -312,7 +321,7 @@ body {
 @keyframes expresskeyin {
   from { box-shadow: none;
          border: none #f0d91c;
-         background-color: rgb(43, 43, 43);
+         background-color: rgba(43, 43, 43, 0);
          visibility:hidden;  
          
   }
@@ -326,7 +335,7 @@ body {
 #expresspickey {
   animation-name: expresspickeyin;
   animation-duration: 2.7s;
-  animation-delay: 2.2s;
+  animation-delay: 1.25s;
   animation-fill-mode: backwards;
 }
 
@@ -342,14 +351,14 @@ body {
 #reactkey {
   animation-name: reactkeyin;
   animation-duration: 2s;
-  animation-delay:1s;
+  animation-delay:1.75s;
   animation-fill-mode: backwards;
 }
 
 @keyframes reactkeyin {
   from { box-shadow: none;
          border: none #61dafb67;
-         background-color: rgb(43, 43, 43);
+         background-color: rgba(43, 43, 43, 0);
          visibility:hidden;
   }
   to { box-shadow: 0 1.125rem 1.25rem rgba(0, 0, 0);
@@ -363,7 +372,7 @@ body {
 #reactpickey {
   animation-name: reactpickeyin;
   animation-duration: 3s;
-  animation-delay: 2.4s;
+  animation-delay: 2s;
   animation-fill-mode: backwards;
 }
 
@@ -379,7 +388,7 @@ body {
 #mysqlkey {
   animation-name: mysqlkeyin;
   animation-duration: 2s;
-  animation-delay:1s;
+  animation-delay:2.25s;
   animation-fill-mode: backwards;
   
 }
@@ -387,7 +396,7 @@ body {
 @keyframes mysqlkeyin {
   from { box-shadow: none;
          border: none #e59209;
-         background-color: rgb(43, 43, 43);
+         background-color: rgba(43, 43, 43, 0);
          visibility:hidden;      
   }
   to { box-shadow: 0 .44rem .7rem rgba(0, 0, 0);
@@ -400,7 +409,7 @@ body {
 #mysqlpickey {
   animation-name: mysqlpickeyin;
   animation-duration: 3s;
-  animation-delay: 2.6s;
+  animation-delay: 2.5s;
   animation-fill-mode: backwards;
 }
 
@@ -416,14 +425,14 @@ body {
 #mongokey {
   animation-name: mongokeyin;
   animation-duration: 2s;
-  animation-delay: 1s;
+  animation-delay: 2.75s;
   animation-fill-mode: backwards;
 }
 
 @keyframes mongokeyin {
   from { box-shadow: none;
          border: none #c1bebb;
-         background-color: rgb(43, 43, 43);
+         background-color: rgba(43, 43, 43, 0);
          visibility:hidden;  
   }
   to { box-shadow: 0 .175rem .35rem rgba(0, 0, 0);
@@ -436,7 +445,7 @@ body {
 #mongopickey {
   animation-name: mongopickeyin;
   animation-duration: 3s;
-  animation-delay: 2.8s;
+  animation-delay: 3s;
   animation-fill-mode: backwards;
 }
 
@@ -473,6 +482,20 @@ from { top: -600px;
 }
 
 @keyframes textkeyin {
+from { opacity: 0%;
+  }
+  to { opacity: 80%;
+  }
+}
+
+#quotekey {
+  animation-name: quotekeyin;
+  animation-duration: .5s;
+  animation-delay:3s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes quotekeyin {
 from { opacity: 0%;
   }
   to { opacity: 80%;
