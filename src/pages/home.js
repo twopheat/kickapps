@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../App.css';
 
 import logo from "../../src/img/logo1inv.png";
-import divider from "../../src/img/dividervert.png";
 import nodepic from "../../src/img/node.png";
 import expresspic from "../../src/img/express.png";
 import reactpic from "../../src/img/react.png";
@@ -17,23 +16,23 @@ class Home extends Component {
     return (
 
       <div className="container appcontent">
-        <div className="row">
+        <div className="row row-cols-sm-4">
 
-          <div className="col-4-sm sloganbox mt-5">
-            <div className="row">
-              <div className="firstletter">D</div><div className="slogan">igitally</div>
+          <div className="col-5 col-sm-5 sloganbox mt-5">
+            <div className="row digitalkey">
+              <span className="firstletter col-2">D</span><span className="slogan col-8">igitally</span>
             </div>
-            <div className="row">
-              <div className="firstletter">D</div><div className="slogan">istinguished</div>
+            <div className="row distkey">
+              <span className="firstletter col-2">D</span><span className="slogan col-8">istinguished</span>
             </div>
-            <div className="row">
-              <div className="firstletter">D</div><div className="slogan">evelopment</div>
+            <div className="row developkey">
+              <span className="firstletter col-2">D</span><span className="slogan col-8">evelopment</span>
             </div>
           </div>
-          <div className="col-1 dividerbox">
+          {/* <div className="col-1 col-sm-1 dividerbox">
             <img className="homepic divider" src={divider} alt="KICKapps"></img>
-          </div>
-          <div className="col-md logobox mt-5">
+          </div> */}
+          <div className="col-7 col-sm-7 logobox mt-5">
             <img className="homepic" src={logo} alt="KICKapps"></img>
           </div>
         </div>
