@@ -18,11 +18,11 @@ class Home extends Component {
         <div className="container appcontent">
           <div className="row">
 
-            <div className="col-9 col-sm-9 logobox mt-5">
+            <div className="col-sm-9 logobox mt-5">
               <img className="homepic" src={logo} alt="KICKapps"></img>
             </div>
 
-            <div className="col-3 col-sm-3 order-last sloganbox mt-5">
+            <div className="col-sm-3 order-last sloganbox mt-5">
               <div className="row digitalkey">
                 <span className="firstletter col-2">D</span><span className="slogan col-8">igitally</span>
               </div>

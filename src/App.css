@@ -254,9 +254,9 @@ body {
 
 }
 
-@media screen and (max-width: 767px) {
-  .divider {
-    display:none;
+@media screen and (max-width: 1100px) {
+  .sloganbox {
+    margin-left:20%;
   }
 }
 
