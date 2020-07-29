@@ -33,7 +33,7 @@ body html {
 }
 
 canvas {
-  position:fixed;
+  position:absolute;
 }
 
 .homepic {
