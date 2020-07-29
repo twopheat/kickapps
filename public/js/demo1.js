@@ -12,7 +12,7 @@ function createLandscape(params){
   var terrain;
 
   var mouse = { x:0, y:0, xDamped:0, yDamped:0 };
-  var isMobile = typeof window.orientation !== 'undefined'
+  var isMobile = typeof window.orientation !== 'undefined';
 
   init();
 
@@ -24,7 +24,7 @@ function createLandscape(params){
     render();
 
     if(isMobile)
-      window.addEventListener("touchmove", onInputMove, {passive:false})
+      window.addEventListener("touchmove", onInputMove, {passive:true})
     else
       window.addEventListener("mousemove", onInputMove)
     
