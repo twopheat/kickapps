@@ -15,9 +15,13 @@ class Home extends Component {
 
     return (
       <div className="appcontent">
-        <div className="container appcontent">
-          <div className="row">
+        
 
+        
+        <div className="container appcontent">
+        
+          <div className="row">
+            
             <div className="col-sm-9 logobox mt-5">
               <img className="homepic" src={logo} alt="KICKapps"></img>
             </div>

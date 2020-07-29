@@ -10,20 +10,21 @@ class Contact extends Component {
   render() {
 
     return (
-
+      <div className="appcontent">
       <div className="mt-5 mb-5 container appcontent">
+        <div className="row">
 
-        <h5 className="ptitle text-light">Contact Us</h5>
+        <h5 className="col-12 ptitle text-light">Contact Us</h5>
         <br></br>
-        <h5 className="email">
+        <h5 className="col-12 email">
           <a href="mailto:info@kickapps.com">info@kickapps.com</a>
         </h5>
 
         <br></br>
-        <h4 className="phone">
+        <h4 className="col-12 phone">
           <a href="tel:951-956-6966">951.956.6966</a>
         </h4>
-        
+        </div>
         <br></br>
         <div className="row">
           <div className="col-sm">
@@ -48,6 +49,7 @@ class Contact extends Component {
 
 
 
+      </div>
       </div>
     );
   }
