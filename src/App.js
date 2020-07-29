@@ -7,7 +7,7 @@ import Core from './components/Main';
 import Footer from './components/Footer';
 import HttpsRedirect from 'react-https-redirect';
 
-import Canvas from './components/Canvas'
+// import Canvas from './components/Canvas'
 
 import { BrowserRouter as Router } from "react-router-dom";
 
