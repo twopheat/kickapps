@@ -28,11 +28,10 @@ body html {
   min-height:1000px;
 }
 .bg-kick {
-  /* background-color:#fbfbfb!important; */
+  background-color:#fbfbfb!important;
 }
 .Applogo {
   height: 64px;
-  
 }
 
 canvas {
@@ -228,6 +227,8 @@ body {
   box-shadow: 0 .125rem .25rem rgb(0, 0, 0)!important;
   background-color:white;
 }
+
+
 
 .mr-auto1 {
   margin-left: 60%!important;
