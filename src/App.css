@@ -13,7 +13,7 @@
 
 .appcontent {
   height:100%;
-  min-height:1000px;
+  /* min-height:1000px; */
   
 }
 
@@ -47,10 +47,15 @@ canvas {
   color:#0071bc;
 }
 
+.logoApic {
+  width: 400px;
+  height:auto;
+}
+
 .slogan {
   font-size:30pt;
   font-weight:bold;
-  color:#000000;
+  color:#111111;
 }
 
 .sloganbox {
@@ -535,6 +540,20 @@ from { top: -600px;
 from { opacity: 0%;
   }
   to { opacity: 80%;
+  }
+}
+
+#logoAkey {
+  animation-name: logoAkeyin;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  z-index:0;
+}
+
+@keyframes logoAkeyin {
+from { visibility:hidden;
+  }
+  to { visibility:visible;
   }
 }
 
