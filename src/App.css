@@ -551,9 +551,9 @@ from { opacity: 0%;
 }
 
 @keyframes logoAkeyin {
-from { visibility:hidden;
+from { opacity: 0%;
   }
-  to { visibility:visible;
+  to { opacity: 100%;
   }
 }
 
