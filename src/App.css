@@ -17,6 +17,9 @@
   
 }
 
+.fcredits {
+  font-size:xx-small;
+}
 
 body html {
   /* background-color: rgba(43, 43, 43, 0); */
@@ -101,7 +104,7 @@ canvas {
 .reactcard {
   border: 5px solid #61dafb;
   box-shadow: 0 1.125rem 1.25rem rgba(0, 0, 0);
-  z-index:2;
+  z-index:1;
 }
 
 .mysqlpic {
@@ -183,6 +186,7 @@ body {
   width: 100%;
   line-height: 10px;
   display: inline-block;
+  z-index:5;
 }
 
 .divider {
