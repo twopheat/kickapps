@@ -1,11 +1,12 @@
 import React from "react";
-import logo from "../../src/logo.png";
+import octo from "../../src/octopimp.png";
+// import logo from "../../src/logo1a.png";
 import "../App.css";
 
 function Nav() {
   return (
 <nav className="navbar navbar-expand-lg navbar-light bg-kick shadow-sm">
-  <a href="/"><img src={logo} className="Applogo ml-3" alt="logo" /></a>
+  <a href="/"><img src={octo} className="Applogo ml-3" alt="octo" /></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
