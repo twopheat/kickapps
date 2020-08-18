@@ -1,5 +1,5 @@
 createLandscape({
-  palleteImage:'img/pallete5.png'
+  palleteImage:'img/pallete8.png'
 })
 
 function createLandscape(params){
@@ -100,9 +100,15 @@ function createLandscape(params){
   function sky(){
     sky = new THREE.Sky();
     sky.scale.setScalar( 450000 );
-    sky.material.uniforms.turbidity.value = 20;
-    sky.material.uniforms.rayleigh.value = 0;
-    sky.material.uniforms.luminance.value = 1;
+    // sky.material.uniforms.turbidity.value = 20;
+    sky.material.uniforms.turbidity.value = 200;
+
+    // sky.material.uniforms.rayleigh.value = 0;
+    sky.material.uniforms.rayleigh.value = 10;
+
+    // sky.material.uniforms.luminance.value = 1;
+    sky.material.uniforms.luminance.value = .1;
+
     sky.material.uniforms.mieCoefficient.value = 0.01;
     sky.material.uniforms.mieDirectionalG.value = 0.8;
     
@@ -112,10 +118,12 @@ function createLandscape(params){
       new THREE.SphereBufferGeometry( 20000, 16, 8 ),
       new THREE.MeshBasicMaterial( { color: 0xffffff } )
     );
-    sunSphere.visible = false;
+    sunSphere.visible = true;
     scene.add( sunSphere );
     
-    var theta = Math.PI * ( -0.02 );
+    // var theta = Math.PI * ( -0.02 );
+    var theta = Math.PI * ( -.002 );
+
     var phi = 2 * Math.PI * ( -.25 );
 
     sunSphere.position.x = 400000 * Math.cos( phi );
