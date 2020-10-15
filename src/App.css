@@ -175,7 +175,6 @@ body {
   /* background-image: url(''); */
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
 
 .footer {
@@ -316,7 +315,7 @@ body {
   animation-duration: 2s;
 }
 
-@keyframes digitalkey {
+@keyframes distkey {
   0%   {left:500px; visibility:hidden;}
   100% {left:0px; visibility:visible;}
 }
@@ -329,7 +328,7 @@ body {
   animation-duration: 3s;
 }
 
-@keyframes digitalkey {
+@keyframes developkey {
   0%   {left:500px; visibility:hidden;}
   100% {left:0px; visibility:visible;}
 }

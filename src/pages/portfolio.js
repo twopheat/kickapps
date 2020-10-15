@@ -9,14 +9,10 @@ class Portfolio extends Component {
 
     return (
 
-      <div className="mt-5">
-        
-        <h5 className="ptitle text-dark">Our Portfolio is being put together real-time!</h5>
-
-
-      
-
-        
+      <div className="container mt-5">
+        <div className="row">
+        <div className="col col-12-sm ptitle text-dark"><h5>Just a few of our past projects.</h5></div>
+        </div>
       </div>
     );
   }
