@@ -4,6 +4,9 @@ import '../App.css';
 // import aboutpic from "../../src/img/coding.jpg";
 import logoApic from "../../src/img/logo.png";
 // import divider from "../../src/img/dividervert.png";
+import gitbrad from "../../src/img/gitbrad.jpg";
+import gitjustin from "../../src/img/gitjustin.jpg";
+import gitderek from "../../src/img/gitderek.jpg";
 
 class About extends Component {
 
@@ -40,7 +43,15 @@ class About extends Component {
             <br></br>
             <br></br>
           </div>
-
+          <div className="col-sm-4">
+            <img className='avatar' alt="Team Avatars" src={gitbrad}></img>
+          </div>
+          <div className="col-sm-4">
+            <img className='avatar' alt="Team Avatars" src={gitjustin}></img>
+          </div>
+          <div className="col-sm-4">
+            <img className='avatar' alt="Team Avatars" src={gitderek}></img>
+          </div>
         </div>
 
       </div>
