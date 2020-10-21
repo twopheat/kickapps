@@ -1,5 +1,5 @@
 import React from "react";
-import octo from "../../src/octopimp.png";
+import octo from "../../src/img/logo.png";
 // import logo from "../../src/logo1a.png";
 import "../App.css";
 

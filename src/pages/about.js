@@ -6,13 +6,7 @@ import logoApic from "../../src/img/octopimplogo.png";
 // import divider from "../../src/img/dividervert.png";
 
 class About extends Component {
-  state = {
-    trips: [],
 
-    destination: "",
-    startDate: "",
-    endDate: ""
-  }
 
   render() {
 
@@ -25,13 +19,19 @@ class About extends Component {
             <h5>Here at KICKapps we house a team of specialized programmers and business development professionals. Our streamlined build process and diverse skill-sets can help achieve your digital identity.</h5>
           </div>
         
-        <div id="aboutkey" className="card aboutcard round m-3 col-10-sm mb-5">
-          <img className="aboutpic" src={aboutpic} alt="KICKapps Mission"></img>
-        </div>
 
-        <div id="logoAkey" className="col-10-sm mb-5">
-          <img className="logoApic" src={logoApic} alt="KICKapps Logo"></img>
-        </div>
+
+        <div className="col-sm-12 sloganbox mt-5">
+              <div className="row digitalkey">
+                <span className="firstletter col-2">D</span><span className="slogan col-8">igitally</span>
+              </div>
+              <div className="row distkey">
+                <span className="firstletter col-2">D</span><span className="slogan col-8">istinguished</span>
+              </div>
+              <div className="row developkey">
+                <span className="firstletter col-2">D</span><span className="slogan col-8">evelopment</span>
+              </div>
+            </div>
       </div>
       </div>
 

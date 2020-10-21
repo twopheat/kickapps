@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import logo from "../../src/img/logo.png";
+import logo from "../../src/img/octopimplogo.png";
 import nodepic from "../../src/img/node.png";
 import expresspic from "../../src/img/express.png";
 import reactpic from "../../src/img/react.png";
@@ -22,12 +22,12 @@ class Home extends Component {
         
           <div className="row">
             
-            <div className="col-sm-9 logobox mt-5">
+            <div className="col-sm-12 logobox mt-5 mb-5">
               <img className="homepic" src={logo} alt="KICKapps"></img>
             </div>
 
-            <div className="col-sm-3 order-last sloganbox mt-5">
-              <div className="row digitalkey">
+            <div className="col-sm-12 order-last sloganbox mt-5">
+              {/* <div className="row digitalkey">
                 <span className="firstletter col-2">D</span><span className="slogan col-8">igitally</span>
               </div>
               <div className="row distkey">
@@ -35,7 +35,9 @@ class Home extends Component {
               </div>
               <div className="row developkey">
                 <span className="firstletter col-2">D</span><span className="slogan col-8">evelopment</span>
-              </div>
+              </div> */}
+              <br></br>
+              <br></br>
             </div>
 
           </div>
