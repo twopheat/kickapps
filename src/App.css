@@ -40,7 +40,9 @@ canvas {
 
 .homepic {
   text-align:center;
+  width:100%;
 }
+
 
 .firstletter {
   font-size:30pt;
@@ -50,6 +52,11 @@ canvas {
 
 .logoApic {
   width: 400px;
+  height:auto;
+}
+
+.logoapic {
+  width: 100%;
   height:auto;
 }
 
@@ -213,7 +220,7 @@ body {
 }
 
 .denver {
-  color:#363636;
+  color:#ffffff;
 }
 
 .nashville {

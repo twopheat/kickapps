@@ -22,22 +22,12 @@ class Home extends Component {
         
           <div className="row">
             
-            <div className="col-sm-12 logobox mt-5 mb-5">
+            <div className="col-sm-6 logobox mt-5 mb-5">
               <img className="homepic" src={logo} alt="KICKapps"></img>
             </div>
 
-            <div className="col-sm-12 order-last sloganbox mt-5">
-              {/* <div className="row digitalkey">
-                <span className="firstletter col-2">D</span><span className="slogan col-8">igitally</span>
-              </div>
-              <div className="row distkey">
-                <span className="firstletter col-2">D</span><span className="slogan col-8">istinguished</span>
-              </div>
-              <div className="row developkey">
-                <span className="firstletter col-2">D</span><span className="slogan col-8">evelopment</span>
-              </div> */}
-              <br></br>
-              <br></br>
+            <div className="col-sm-12 order-last sloganbox mt-5 mb-5">
+              <p> </p>
             </div>
 
           </div>
