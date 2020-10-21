@@ -43,10 +43,10 @@ class About extends Component {
             <br></br>
             <br></br>
           </div>
-          <div className="col-sm-4">
+          <div className="col-sm-4 mb-5">
             <img className='avatar' alt="Team Avatars" src={gitbrad}></img>
           </div>
-          <div className="col-sm-4">
+          <div className="col-sm-4 mb-5">
             <img className='avatar' alt="Team Avatars" src={gitderek}></img>
           </div>
           <div className="col-sm-4">
