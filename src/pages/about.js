@@ -26,7 +26,7 @@ class About extends Component {
         </div>
         <div className="row">
 
-          <div className="col-sm-8 logobox mt-5">
+          <div className="col-sm-8 logobox mt-5 mb-">
             <img className="homepic" src={logoApic} alt="KICKapps"></img>
           </div>
 
@@ -44,13 +44,16 @@ class About extends Component {
             <br></br>
           </div>
           <div className="col-sm-4 mb-5">
-            <img className='avatar' alt="Team Avatars" src={gitbrad}></img>
+            <img className='avatar' title="Brad Johnston" alt="Brad Johnston" src={gitbrad}></img>
+            <h3 className="text-white">Brad Johnston</h3>
           </div>
           <div className="col-sm-4 mb-5">
-            <img className='avatar' alt="Team Avatars" src={gitderek}></img>
+            <img className='avatar' title="Derek Minney" alt="Derek Minney" src={gitderek}></img>
+            <h3 className="text-white">Derek Minney</h3>
           </div>
           <div className="col-sm-4">
-            <img className='avatar' alt="Team Avatars" src={gitjustin}></img>
+            <img className='avatar' title="Justin Moore" alt="Justin Moore" src={gitjustin}></img>
+            <h3 className="text-white">Justin Moore</h3>
           </div>
 
         </div>
