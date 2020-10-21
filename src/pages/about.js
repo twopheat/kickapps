@@ -26,7 +26,7 @@ class About extends Component {
         </div>
         <div className="row">
 
-          <div className="col-sm-8 logobox mt-5 mb-5">
+          <div className="col-sm-8 logobox mt-5">
             <img className="homepic" src={logoApic} alt="KICKapps"></img>
           </div>
 
