@@ -47,11 +47,12 @@ class About extends Component {
             <img className='avatar' alt="Team Avatars" src={gitbrad}></img>
           </div>
           <div className="col-sm-4">
-            <img className='avatar' alt="Team Avatars" src={gitjustin}></img>
-          </div>
-          <div className="col-sm-4">
             <img className='avatar' alt="Team Avatars" src={gitderek}></img>
           </div>
+          <div className="col-sm-4">
+            <img className='avatar' alt="Team Avatars" src={gitjustin}></img>
+          </div>
+
         </div>
 
       </div>
