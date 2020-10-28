@@ -26,37 +26,28 @@ class About extends Component {
         </div>
         <div className="row">
 
-          <div className="col-sm-8 logobox mt-5 mb-">
-            <img className="homepic" src={logoApic} alt="KICKapps"></img>
-          </div>
+              <div className="col-sm-8 logobox mt-5 mb-5">
+                <img className="homepic" src={logoApic} alt="KICKapps"></img>
+              </div>
 
-          <div className="col-sm-4 sloganbox mt-5">
-            <div className="row digitalkey">
-              <span className="firstletter col-2">D</span><span className="slogan col-8">igitally</span>
-            </div>
-            <div className="row distkey">
-              <span className="firstletter col-2">D</span><span className="slogan col-8">istinguished</span>
-            </div>
-            <div className="row developkey">
-              <span className="firstletter col-2">D</span><span className="slogan col-8">evelopment</span>
-            </div>
-            <br></br>
-            <br></br>
-          </div>
-          <div className="col-sm-4 mb-5">
-            <img className='avatar' title="Brad Johnston" alt="Brad Johnston" src={gitbrad}></img>
-            <h3 className="text-white">Brad Johnston</h3>
-          </div>
-          <div className="col-sm-4 mb-5">
-            <img className='avatar' title="Derek Minney" alt="Derek Minney" src={gitderek}></img>
-            <h3 className="text-white">Derek Minney</h3>
-          </div>
-          <div className="col-sm-4">
-            <img className='avatar' title="Justin Moore" alt="Justin Moore" src={gitjustin}></img>
-            <h3 className="text-white">Justin Moore</h3>
-          </div>
+              
+              </div>
+              <div classNaame='row'>
+                <div className="col-sm-4 mb-5">
+                  <img className='avatar' title="Brad Johnston" alt="Brad Johnston" src={gitbrad}></img>
+                  <h3 className="text-white">Brad Johnston</h3>
+                </div>
+                <div className="col-sm-4 mb-5">
+                  <img className='avatar' title="Derek Minney" alt="Derek Minney" src={gitderek}></img>
+                  <h3 className="text-white">Derek Minney</h3>
+                </div>
+                <div className="col-sm-4">
+                  <img className='avatar' title="Justin Moore" alt="Justin Moore" src={gitjustin}></img>
+                  <h3 className="text-white">Justin Moore</h3>
+                </div>
+              </div>
 
-        </div>
+        
 
       </div>
 

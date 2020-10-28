@@ -177,6 +177,13 @@ canvas {
   box-shadow: 0 1.44rem 1.7rem rgba(0, 0, 0);
 }
 
+.octopimpsmall {
+  width:100px;
+  height:100px;
+  float:right;
+  right:0;
+}
+
 .ztop {
   z-index:0;
 }
