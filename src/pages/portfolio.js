@@ -6,7 +6,7 @@ import agtpic from '../img/agtbkg.jpg';
 import kickappslogo from '../img/logo.png';
 import octopimplogo from '../img/octopimplogo.png';
 import windowpic from '../img/window.png';
-
+import wallpic from '../img/deepbkgwall.jpg';
 
 class Portfolio extends Component {
   constructor(props) {
@@ -74,7 +74,7 @@ class Portfolio extends Component {
                   <div className="title">Background Layer 2</div>
                 </div>
                 <div className="parallax__layer parallax__layer--deep">
-                  <div className="title blackbkg">deep layer</div>
+                  <div className="title"><img alt='' className="wallpic" src={wallpic}></img></div>
                 </div>
               </div>
               <div id="group5" className="parallax__group">

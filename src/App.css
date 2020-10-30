@@ -251,7 +251,11 @@ body {
   background-color:white;
 }
 
-
+.wallpic {
+  width:1000px;
+  height:auto;
+  padding-right:50px;
+}
 
 .mr-auto1 {
   margin-left: 60%!important;
