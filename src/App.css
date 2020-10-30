@@ -196,7 +196,7 @@ canvas {
 }
 
 body {
-  /* background-image: url(''); */
+  background-image: url('../src/img/scape.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
