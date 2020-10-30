@@ -184,6 +184,10 @@ canvas {
   right:0;
 }
 
+.picrow {
+  width:100%;
+}
+
 .ztop {
   z-index:0;
 }
