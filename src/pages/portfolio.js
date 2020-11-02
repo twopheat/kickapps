@@ -8,26 +8,12 @@ import octopimplogo from '../img/octopimplogo.png';
 import windowpic from '../img/window.png';
 import wallpic from '../img/deepbkgwall.jpg';
 
+
+
 class Portfolio extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { value: 'off' };
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleChange(event) {
-    this.setState({ value: event.target.value });
-  }
-
-  handleSubmit(event) {
-    alert('Debug Mode is: ' + this.state.value);
-    event.preventDefault();
-  }
 
   render() {
-
+    
     return (
 
       <div>
@@ -99,7 +85,7 @@ class Portfolio extends Component {
                 </div>
 
           </div>
-          <div className="debug">
+          {/* <div className="debug">
             <label>
               Debug
           <select value={this.state.value} onChange={this.handleChange}>
@@ -107,10 +93,10 @@ class Portfolio extends Component {
                 <option value="off">Off</option>
               </select>
             </label>
-          </div>
+          </div> */}
         </div>
       </div>
-    );
+    )
   }
 
 }
