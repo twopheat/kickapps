@@ -22,7 +22,7 @@ class Contact extends Component {
 
         <br></br>
         <h4 className="col-12 phone">
-          <a href="tel:951-956-6966">951.956.6966</a>
+          <a href="tel:951-956-6966">951.933.9085</a>
         </h4>
         </div>
         <br></br>
