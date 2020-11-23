@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import logo from "../../src/img/octopimplogo.png";
+import logo from "../../src/img/octopimpLOGO.png";
 import nodepic from "../../src/img/node.png";
 import expresspic from "../../src/img/express.png";
 import reactpic from "../../src/img/react.png";
