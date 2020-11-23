@@ -4,7 +4,7 @@ import '../parallax.css';
 
 import agtpic from '../img/agtbkg.jpg';
 import kickappslogo from '../img/logo.png';
-import octopimplogo from '../img/octopimplogo.png';
+import octopimplogo from '../img/octopimpLOGO.png';
 import windowpic from '../img/window.png';
 import wallpic from '../img/deepbkgwall.jpg';
 

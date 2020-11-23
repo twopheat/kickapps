@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import logo from "../../src/img/octopimplogo.png";
+import logo from "../../src/img/octopimpLOGO.png";
 import nodepic from "../../src/img/node.png";
 import expresspic from "../../src/img/express.png";
 import reactpic from "../../src/img/react.png";
@@ -72,7 +72,7 @@ class Home extends Component {
           </div>
           <div className="row justify-content-center mt-5 mb-5">
             <div className="col-5-sm">
-              <quote id="quotekey" className="text-white">"We are constantly learning and perfecting new libraries, frameworks and technologies." -Justin Moore | Co-founder</quote>
+              <p id="quotekey" className="text-white">"We are constantly learning and perfecting new libraries, frameworks and technologies." -Justin Moore | Co-founder</p>
             </div>
           </div>
         </div>

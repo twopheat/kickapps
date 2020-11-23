@@ -13,8 +13,7 @@
     "react-https-redirect": "^1.1.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3",
-    "webpack": "4.42.0"
+    "react-scripts": "^4.0.0"
   },
   "scripts": {
     "start": "set HTTPS=true&&react-scripts start",
