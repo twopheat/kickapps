@@ -16,6 +16,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+     
       <div className="App-head">
         <HttpsRedirect>
           <Router>
@@ -30,7 +31,11 @@ function App() {
           </Router>
         </HttpsRedirect>
       </div>
-
+      <div className="clouds fixed"></div>
+      <div className='bodybkg fixed'></div>
+      <div className="stars fixed"></div>
+      <div className="twinkling fixed"></div>
+      
     </div>
   );
 }
